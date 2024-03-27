@@ -33,7 +33,7 @@ const filterPrice = (price) => {
         {/* filter type */}
         <div>
           <p className='font-bold text-gray-700'>Filter Type</p>
-          <div className='flex justify-between flex-wrap lg:gap-2'>
+          <div className='flex justify-between flex-wrap min-w-[390px] lg:gap-2'>
             <button onClick={() => setFoods(data)} className='border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white my-2'>All</button>
             <button onClick={() => filterType('burger')} className='border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white my-2'>Burgers</button>
             <button onClick={() => filterType('pizza')}  className='border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white my-2'>Pizza</button>
